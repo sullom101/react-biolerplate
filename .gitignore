@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea

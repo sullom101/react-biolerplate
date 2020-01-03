@@ -1,0 +1,62 @@
+{
+  "name": "camycom-react",
+  "version": "1.0.0",
+  "description": "React Boilerplate with webpack and babel that's completely configurable",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "webpack",
+    "test": "cross-env NODE_ENV=test jest ",
+    "test:watch": "cross-env NODE_ENV=test jest --watchAll",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "format": "prettier --write \"src/**/*.js\"",
+    "build": "webpack --mode production",
+    "check-types": "tsc"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sullom101/react-biolerplate"
+  },
+  "author": {
+    "name": "Suleiman Mayow",
+    "email": "suleiman@mayow.dev",
+    "website": "mayow.dev"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/prettier": "^1.19.0",
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.8.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.12.0",
+    "style-loader": "^1.0.0",
+    "typescript": "^3.6.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  }
+}
