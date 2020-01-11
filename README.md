@@ -11,7 +11,7 @@ Supporting tools and technologies including:
 1. React 
 2. Redux
 3. TypeScript
-4. React-Helmet
+4. React-Helmet for SEO
 4. Webpack
 5. Jest 
 6. Babel 
